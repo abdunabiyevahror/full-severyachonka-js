@@ -1,5 +1,4 @@
 
-
 const home = document.querySelector("#home");
 
 const prodactsRow = document.createElement("div");
