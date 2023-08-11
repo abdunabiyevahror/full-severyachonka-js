@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Северяночка</title>
+    <link rel="stylesheet" href="../css/basket.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>    
+    <header>
+      <nav>
+        <section class="nav-box">
+          <div class="container">
+            <div class="nav-link">
+              <div class="logo-img">
+                <a href="index.html">
+                  <img
+                    class="logo-1"
+                    src="images/index/logo-severyanochka.png"
+                    alt="logo-img"
+                /></a>
+
+                <a href="#">
+                  <img class="logo-2-mobile" src="images/index/logo-2-icon.png"
+                /></a>
+              </div>
+              <div class="nav-link-box">
+                <div class="btn-box">
+                  <button class="head-btn" id="menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <nav id="menu">
+                    <div class="container">
+                      <div class="cards">
+                        <div class="card">
+                          <ul>
+                            <li><a href="pages/tovar.html">Молоко, сыр, яйцо</a></li>
+                            <li><a href="pages/tovar.html">Хлеб</a></li>
+                            <li><a href="pages/tovar.html">Фрукты и овощи</a></li>
+                            <li><a href="pages/tovar.html">Замороженные продукты</a></li>
+                          </ul>
+                        </div>
+                        <div class="card">
+                          <ul>
+                            <li><a href="pages/tovar.html">Напитки</a></li>
+                            <li><a href="pages/tovar.html">Кондитерские изделия</a></li>
+                            <li><a href="pages/tovar.html">Чай, кофе</a></li>
+                          </ul>
+                        </div>
+                        <div class="card">
+                          <ul>
+                            <li><a href="pages/tovar.html">Бакалея</a></li>
+                            <li><a href="pages/tovar.html">Здоровое питание</a></li>
+                            <li><a href="pages/tovar.html">Зоотовары</a></li>
+                          </ul>
+                        </div>
+                        <div class="card">
+                          <ul>
+                            <li><a href="pages/tovar.html">Непродовольственные товары</a></li>
+                            <li><a href="pages/tovar.html">Детское питание</a></li>
+                            <li><a href="pages/tovar.html">Мясо, птица, колбаса</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                  <a class="cataloc-click" href="./pages/catalok.html"
+                    >Каталог</a
+                  >
+                </div>
+                <div class="search">
+                  <input type="text" placeholder="Найти товар" />
+                  <img src="images/index/search.png" />
+                </div>
+                <div class="nav-link-right">
+                  <div class="nav-link-right-left">
+                    <div class="icon-like">
+                      <a href="#"
+                        ><img src="images/index/like-icon.png" />
+                        <p>Избранное</p></a
+                      >
+                    </div>
+                    <div class="icon-like">
+                      <a href="pages/all-prodact.html"
+                        ><img src="images/index/box-icon.png" />
+                        <p>продукты</p></a
+                      >
+                    </div>
+                    <div class="icon-like">
+                      <a href="../pages/tovar.html"
+                        ><img src="images/index/basket-icon.png" />
+                        <p>Корзина</p></a
+                      >
+                    </div>
+                  </div>
+                  <div class="nav-link-right-r2">
+                    <a href="#" id="myBtn"
+                      ><img
+                        src="images/index/usermenu-male.png"
+                        alt="male-icon"
+                    /></a>
+                    <div id="myModal" class="modal">
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="register-box">
+                          <div class="intro-txt-register">
+                            <span>Вход</span>
+                          </div>
+                          <form>
+                            <label for="number">Телефон</label>
+                            <br />
+                            <input
+                              id="number"
+                              type="text"
+                              placeholder="+7 912 |"
+                            />
+                            <br />
+                            <div class="send-btn1">
+                              <button><a href="#">Вход</a></button>
+                            </div>
+                            <div class="register">
+                              <button><a href="#">Регистрация</a></button>
+                              <p><a href="#">Забыли пароль?</a></p>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+      <main class="main">
+      <div class="container">
+        <div class="main-body">
+          <nav class="main__navigation">
+            <ul class="main__navigation-list">
+              <a href="index.html" class="main__navigation-link">Главная</a>
+              <span class="main__navigation-span _icon-arrow"></span>
+              <a href="basket.html" class="main__navigation-link">Корзина</a>
+            </ul>
+          </nav>
+          <div class="main__content">
+            <div class="main-wrapper-title">
+              <h1 class="main__title">Корзина</h1>
+              <span class="main-title-quantity">1</span>
+            </div>
+            <!-- basket -->
+            <div class="basket">
+              <!-- basket__settings -->
+              <div class="basket__settings">
+                <div class="basket__settings-checkbox">
+                  <div class="basket__settings-block-check">
+                    <input type="checkbox" class="basket__card-check basket__settings-check" id="settings-check">
+                    <label for="settings-check" class="basket__settings-check-label">—</label>
+                  </div>
+                  <label for="settings-check" class="basket__settings-allot">Выделить всё</label>
+                </div>
+                <button class="basket__settings-button">Удалить выбранные</button>
+              </div>
+              <!-- basket__wrapper -->
+              <div class="basket__wrapper">
+                <!-- products-container -->
+                <div class="basket__content">
+                  <!-- Товар  здесь-->
+                </div>
+                <!-- basket-aside -->
+                <aside class="basket__aside">
+                  <form class="basket__aside-form">
+                    <div class="basket__aside-discount">
+                      <div class="basket__aside-wrapper-checkbox">
+                        <label for="basket-aside-discount" class="basket__aside-checkbox">
+                          <input type="checkbox" name="discount" id="basket-aside-discount" class="basket__aside-check">
+                          <label for="basket-aside-discount" class="basket__aside-check-label"></label>
+                        </label>
+                        <label for="basket-aside-discount" class="basket__aside-check-labels">Списать 200 ₽</label>
+                      </div>
+                      <p class="basket__aside-text-discount">На карте накоплено 200 ₽</p>
+                    </div>
+
+                    <div class="basket__aside-info">
+                      <!-- Информация о товаре -->
+                      <div class="basket__aside-info-block">
+                        <p class="basket__aside-info-text">Скидка</p>
+                        <span class="basket__aside-info-ptice-discount">-8.01 ₽</span>
+                      </div>
+                    </div>
+
+                    <div class="basket__aside-result">
+                      <div class="basket__aside-result-block">
+                        <p class="basket__aside-info-text">Итог</p>
+                        <span class="basket__aside-info-price-result">250.09 ₽</span>
+                      </div>
+                      <div class="basket__aside-result-bonus"><img src="img/img-card/bonus.png" alt=""><span>Вы
+                          получяете
+                          100 бонусов</span></div>
+                    </div>
+
+                    <div class="basket__aside-footer">
+
+                      <button class="basket__aside-button">Оформить заказ</button>
+                    </div>
+                  </form>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>

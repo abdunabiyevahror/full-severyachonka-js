@@ -395,3 +395,6 @@ btn4.addEventListener("click", function () {
   btn3.classList.remove("active");
   btn2.classList.remove("active");
 });
+ likeBtn.onclick = function () {
+   likeBtn.classList.toggle("active");
+ };

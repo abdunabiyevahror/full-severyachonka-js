@@ -3,6 +3,7 @@ let productsNumber = document.querySelector(".products__number");
 let searchInput = document.querySelector(".search__input");
 let search = "";
 let pagination = document.querySelector(".pagination");
+let icon = document.querySelector("fa-regular fa-heart");
 let limit = 10;
 let active = 0;
 function generateStars(rating) {
@@ -83,3 +84,7 @@ function getPage(page) {
   active = page;
   getProducts();
 }
+
+icon.onclick = function () {
+  icon.classList.toggle("active");
+};
